@@ -1,0 +1,401 @@
+slice_name: "TOP 10 \uC9C0\uC5ED \uC18C\uBE44 \uBD84\uD3EC"
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 26__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 78
+  x_axis: REGION
+  time_grain_sqla: P1D
+  x_axis_sort_asc: true
+  x_axis_sort_series: sum
+  x_axis_sort_series_ascending: false
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC2DD\uB8CC\uD488 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 785
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC2DD\uB8CC\uD488"
+    optionName: metric_skmtyjms6ia_66z019zige4
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC758\uB958\uBE44 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 786
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC758\uB958"
+    optionName: metric_njwgnhef38o_qfyn5j6lfzb
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC0DD\uD65C\uC6A9\uD488 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 787
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC0DD\uD65C\uC6A9\uD488"
+    optionName: metric_z2g74vrvqxl_f5g1j2weeun
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC758\uB8CC\uBE44 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 788
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC758\uB8CC"
+    optionName: metric_v9q1d0nuvgt_1tcmvbgd35x
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uAD50\uC721\uBE44 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 789
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uAD50\uC721"
+    optionName: metric_r0elt2nezcb_vd98a52t9y
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC720\uD765\uBE44 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 790
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC720\uD765"
+    optionName: metric_y6tsbijba5_q0tpp8be5x
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uC74C\uC2DD \uC18C\uBE44 \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 791
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: "\uC74C\uC2DD"
+    optionName: metric_26xl16odivm_eyp5046fz7q
+    sqlExpression: null
+  groupby: []
+  contributionMode: null
+  adhoc_filters: []
+  timeseries_limit_metric:
+    aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: "\uCD1D \uB9E4\uCD9C \uD3C9\uADE0"
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 792
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: "AVG(\uCD1D \uB9E4\uCD9C \uD3C9\uADE0)"
+    optionName: metric_ktm6pmbmedo_9qm2wvy5dh
+    sqlExpression: null
+  order_desc: true
+  row_limit: 10
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  sort_series_ascending: true
+  color_scheme: supersetColors
+  show_value: true
+  stack: Stack
+  only_total: true
+  percentage_threshold: 0
+  minorTicks: true
+  zoomable: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: bottom
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 45
+  y_axis_format: SMART_NUMBER
+  truncateXAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 8
+query_context: "{\"datasource\":{\"id\":26,\"type\":\"table\"},\"force\":false,\"\
+  queries\":[{\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"having\":\"\
+  \",\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[{\"timeGrain\":\"P1D\"\
+  ,\"columnType\":\"BASE_AXIS\",\"sqlExpression\":\"REGION\",\"label\":\"REGION\"\
+  ,\"expressionType\":\"SQL\"}],\"metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"\
+  advanced_data_type\":null,\"certification_details\":null,\"certified_by\":null,\"\
+  column_name\":\"\uC2DD\uB8CC\uD488 \uD3C9\uADE0\",\"description\":null,\"expression\"\
+  :null,\"filterable\":true,\"groupby\":true,\"id\":785,\"is_certified\":false,\"\
+  is_dttm\":false,\"python_date_format\":null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\"\
+  :0,\"verbose_name\":null,\"warning_markdown\":null},\"datasourceWarning\":false,\"\
+  expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"label\":\"\uC2DD\uB8CC\uD488\
+  \",\"optionName\":\"metric_skmtyjms6ia_66z019zige4\",\"sqlExpression\":null},{\"\
+  aggregate\":\"AVG\",\"column\":{\"advanced_data_type\":null,\"certification_details\"\
+  :null,\"certified_by\":null,\"column_name\":\"\uC758\uB958\uBE44 \uD3C9\uADE0\"\
+  ,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"\
+  id\":786,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"\
+  type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC758\uB958\",\"optionName\":\"metric_njwgnhef38o_qfyn5j6lfzb\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC0DD\
+  \uD65C\uC6A9\uD488 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":787,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC0DD\uD65C\uC6A9\uD488\",\"optionName\":\"metric_z2g74vrvqxl_f5g1j2weeun\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC758\
+  \uB8CC\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":788,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC758\uB8CC\",\"optionName\":\"metric_v9q1d0nuvgt_1tcmvbgd35x\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uAD50\
+  \uC721\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":789,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uAD50\uC721\",\"optionName\":\"metric_r0elt2nezcb_vd98a52t9y\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC720\
+  \uD765\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":790,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC720\uD765\",\"optionName\":\"metric_y6tsbijba5_q0tpp8be5x\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC74C\
+  \uC2DD \uC18C\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":791,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC74C\uC2DD\",\"optionName\":\"metric_26xl16odivm_eyp5046fz7q\"\
+  ,\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uCD1D\
+  \ \uB9E4\uCD9C \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":792,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :false,\"label\":\"AVG(\uCD1D \uB9E4\uCD9C \uD3C9\uADE0)\",\"optionName\":\"metric_ktm6pmbmedo_9qm2wvy5dh\"\
+  ,\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10,\"series_columns\"\
+  :[],\"series_limit\":0,\"series_limit_metric\":{\"aggregate\":\"AVG\",\"column\"\
+  :{\"advanced_data_type\":null,\"certification_details\":null,\"certified_by\":null,\"\
+  column_name\":\"\uCD1D \uB9E4\uCD9C \uD3C9\uADE0\",\"description\":null,\"expression\"\
+  :null,\"filterable\":true,\"groupby\":true,\"id\":792,\"is_certified\":false,\"\
+  is_dttm\":false,\"python_date_format\":null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\"\
+  :0,\"verbose_name\":null,\"warning_markdown\":null},\"datasourceWarning\":false,\"\
+  expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"label\":\"AVG(\uCD1D \uB9E4\
+  \uCD9C \uD3C9\uADE0)\",\"optionName\":\"metric_ktm6pmbmedo_9qm2wvy5dh\",\"sqlExpression\"\
+  :null},\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\"\
+  :{},\"time_offsets\":[],\"post_processing\":[{\"operation\":\"pivot\",\"options\"\
+  :{\"index\":[\"REGION\"],\"columns\":[],\"aggregates\":{\"\uC2DD\uB8CC\uD488\":{\"\
+  operator\":\"mean\"},\"\uC758\uB958\":{\"operator\":\"mean\"},\"\uC0DD\uD65C\uC6A9\
+  \uD488\":{\"operator\":\"mean\"},\"\uC758\uB8CC\":{\"operator\":\"mean\"},\"\uAD50\
+  \uC721\":{\"operator\":\"mean\"},\"\uC720\uD765\":{\"operator\":\"mean\"},\"\uC74C\
+  \uC2DD\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},{\"operation\"\
+  :\"flatten\"}]}],\"form_data\":{\"datasource\":\"26__table\",\"viz_type\":\"echarts_timeseries_bar\"\
+  ,\"slice_id\":78,\"x_axis\":\"REGION\",\"time_grain_sqla\":\"P1D\",\"x_axis_sort_asc\"\
+  :true,\"x_axis_sort_series\":\"sum\",\"x_axis_sort_series_ascending\":false,\"metrics\"\
+  :[{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\":null,\"certification_details\"\
+  :null,\"certified_by\":null,\"column_name\":\"\uC2DD\uB8CC\uD488 \uD3C9\uADE0\"\
+  ,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"\
+  id\":785,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"\
+  type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC2DD\uB8CC\uD488\",\"optionName\":\"metric_skmtyjms6ia_66z019zige4\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC758\
+  \uB958\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":786,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC758\uB958\",\"optionName\":\"metric_njwgnhef38o_qfyn5j6lfzb\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC0DD\
+  \uD65C\uC6A9\uD488 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":787,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC0DD\uD65C\uC6A9\uD488\",\"optionName\":\"metric_z2g74vrvqxl_f5g1j2weeun\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC758\
+  \uB8CC\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":788,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC758\uB8CC\",\"optionName\":\"metric_v9q1d0nuvgt_1tcmvbgd35x\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uAD50\
+  \uC721\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":789,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uAD50\uC721\",\"optionName\":\"metric_r0elt2nezcb_vd98a52t9y\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC720\
+  \uD765\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":790,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC720\uD765\",\"optionName\":\"metric_y6tsbijba5_q0tpp8be5x\"\
+  ,\"sqlExpression\":null},{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uC74C\
+  \uC2DD \uC18C\uBE44 \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":791,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :true,\"label\":\"\uC74C\uC2DD\",\"optionName\":\"metric_26xl16odivm_eyp5046fz7q\"\
+  ,\"sqlExpression\":null}],\"groupby\":[],\"contributionMode\":null,\"adhoc_filters\"\
+  :[],\"timeseries_limit_metric\":{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"\uCD1D\
+  \ \uB9E4\uCD9C \uD3C9\uADE0\",\"description\":null,\"expression\":null,\"filterable\"\
+  :true,\"groupby\":true,\"id\":792,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\"\
+  :null,\"type\":\"DECIMAL(38, 0)\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :false,\"label\":\"AVG(\uCD1D \uB9E4\uCD9C \uD3C9\uADE0)\",\"optionName\":\"metric_ktm6pmbmedo_9qm2wvy5dh\"\
+  ,\"sqlExpression\":null},\"order_desc\":true,\"row_limit\":10,\"truncate_metric\"\
+  :true,\"show_empty_columns\":true,\"comparison_type\":\"values\",\"annotation_layers\"\
+  :[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"orientation\":\"vertical\"\
+  ,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\"\
+  :\"Left\",\"sort_series_type\":\"sum\",\"sort_series_ascending\":true,\"color_scheme\"\
+  :\"supersetColors\",\"show_value\":true,\"stack\":\"Stack\",\"only_total\":true,\"\
+  percentage_threshold\":0,\"minorTicks\":true,\"zoomable\":false,\"show_legend\"\
+  :true,\"legendType\":\"scroll\",\"legendOrientation\":\"bottom\",\"x_axis_time_format\"\
+  :\"smart_date\",\"xAxisLabelRotation\":45,\"y_axis_format\":\"SMART_NUMBER\",\"\
+  truncateXAxis\":true,\"y_axis_bounds\":[null,null],\"rich_tooltip\":true,\"tooltipTimeFormat\"\
+  :\"smart_date\",\"extra_form_data\":{},\"dashboards\":[8],\"force\":false,\"result_format\"\
+  :\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"\
+  full\"}"
+cache_timeout: null
+uuid: bf2eb97a-7ec8-45c9-9bae-baf9e2b2b625
+version: 1.0.0
+dataset_uuid: 9346bf80-bd48-42f8-8f9e-82749f1c81f9

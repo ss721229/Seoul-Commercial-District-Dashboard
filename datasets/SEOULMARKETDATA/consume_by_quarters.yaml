@@ -1,0 +1,137 @@
+table_name: consume_by_quarters
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: analysis
+sql: null
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: e13dce7e-c62d-48c8-b62e-05c65da6f966
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: "\uCD1D \uB9E4\uCD9C \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC74C\uC2DD \uC18C\uBE44 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uAD50\uC721\uBE44 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC758\uB8CC\uBE44 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC2DD\uB8CC\uD488 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC758\uB958\uBE44 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC720\uD765\uBE44 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: "\uC0DD\uD65C\uC6A9\uD488 \uD3C9\uADE0"
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL(38, 0)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: QUARTERS
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: VARCHAR(20)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 5d13ca98-e052-428e-879f-f766df97dbdc

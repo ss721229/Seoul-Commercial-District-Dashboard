@@ -1,0 +1,64 @@
+slice_name: "Top 10 \uC11C\uC6B8\uC2DC \uB9E4\uC7A5 \uC218"
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 49__table
+  viz_type: pie
+  groupby:
+  - REGION
+  metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      changed_on: '2024-05-15T05:16:02.511617'
+      column_name: TOTAL_STORE
+      created_on: '2024-05-15T05:16:02.511615'
+      description: null
+      expression: null
+      extra: null
+      filterable: true
+      groupby: true
+      id: 877
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: DECIMAL(38, 0)
+      type_generic: 0
+      uuid: 45133d40-cfbc-4d8c-87e2-9a446f71931a
+      verbose_name: null
+    aggregate: MAX
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: MAX(TOTAL_STORE)
+    optionName: metric_1qcd3fs5t9gh_gx7fk6eyppq
+  adhoc_filters: []
+  row_limit: 10
+  sort_by_metric: true
+  color_scheme: d3Category20
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 70
+  donut: true
+  innerRadius: 38
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":49,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["REGION"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"changed_on":"2024-05-15T05:16:02.511617","column_name":"TOTAL_STORE","created_on":"2024-05-15T05:16:02.511615","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":877,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DECIMAL(38,
+  0)","type_generic":0,"uuid":"45133d40-cfbc-4d8c-87e2-9a446f71931a","verbose_name":null},"aggregate":"MAX","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"MAX(TOTAL_STORE)","optionName":"metric_1qcd3fs5t9gh_gx7fk6eyppq"}],"orderby":[[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"changed_on":"2024-05-15T05:16:02.511617","column_name":"TOTAL_STORE","created_on":"2024-05-15T05:16:02.511615","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":877,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DECIMAL(38,
+  0)","type_generic":0,"uuid":"45133d40-cfbc-4d8c-87e2-9a446f71931a","verbose_name":null},"aggregate":"MAX","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"MAX(TOTAL_STORE)","optionName":"metric_1qcd3fs5t9gh_gx7fk6eyppq"},false]],"annotation_layers":[],"row_limit":10,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"49__table","viz_type":"pie","groupby":["REGION"],"metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"changed_on":"2024-05-15T05:16:02.511617","column_name":"TOTAL_STORE","created_on":"2024-05-15T05:16:02.511615","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":877,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DECIMAL(38,
+  0)","type_generic":0,"uuid":"45133d40-cfbc-4d8c-87e2-9a446f71931a","verbose_name":null},"aggregate":"MAX","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"MAX(TOTAL_STORE)","optionName":"metric_1qcd3fs5t9gh_gx7fk6eyppq"},"adhoc_filters":[],"row_limit":10,"sort_by_metric":true,"color_scheme":"d3Category20","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":true,"outerRadius":70,"donut":true,"innerRadius":38,"extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: b1b26d64-ed1b-4359-9927-a4e551aa97ba
+version: 1.0.0
+dataset_uuid: 7e7b04c3-07b4-43fd-a2df-75f322a5c570

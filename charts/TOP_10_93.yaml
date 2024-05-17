@@ -1,0 +1,55 @@
+slice_name: "TOP 10 \uC11C\uBE44\uC2A4 \uC5C5\uC885 \uBCC4 \uAC1C\uC218"
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 48__table
+  viz_type: pie
+  slice_id: 93
+  groupby:
+  - SERVICE
+  metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: true
+    label: (SUM(SERVICE_1_COUNT) + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT))
+      / 4
+    optionName: metric_axlex98erit_90ip6obuo48
+    sqlExpression: (SUM(SERVICE_1_COUNT) + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT)
+      + SUM(SERVICE_4_COUNT)) / 4
+  adhoc_filters: []
+  row_limit: 10
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: ''
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  legendMargin: null
+  label_type: key
+  number_format: ',d'
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 71
+  donut: true
+  innerRadius: 38
+  extra_form_data: {}
+  dashboards:
+  - 8
+query_context: '{"datasource":{"id":48,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["SERVICE"],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":true,"label":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4","optionName":"metric_axlex98erit_90ip6obuo48","sqlExpression":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4"}],"orderby":[[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":true,"label":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4","optionName":"metric_axlex98erit_90ip6obuo48","sqlExpression":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4"},false]],"annotation_layers":[],"row_limit":10,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"48__table","viz_type":"pie","slice_id":93,"groupby":["SERVICE"],"metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":true,"label":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4","optionName":"metric_axlex98erit_90ip6obuo48","sqlExpression":"(SUM(SERVICE_1_COUNT)
+  + SUM(SERVICE_2_COUNT) + SUM(SERVICE_3_COUNT) + SUM(SERVICE_4_COUNT)) / 4"},"adhoc_filters":[],"row_limit":10,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":"","show_legend":true,"legendType":"scroll","legendOrientation":"top","legendMargin":null,"label_type":"key","number_format":",d","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":true,"outerRadius":71,"donut":true,"innerRadius":38,"extra_form_data":{},"dashboards":[8],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 1d75e15d-84fd-471e-bdaa-e2cbb550228d
+version: 1.0.0
+dataset_uuid: 15d490b1-8611-4b90-a46a-dbf24b886f41

@@ -1,0 +1,13 @@
+database_name: SEOULMARKETDATA
+sqlalchemy_uri: snowflake://hjjwa1234:XXXXXXXXXX@MJBUNDJ-MKB03672/SEOULMARKETDATA?role=AccountAdmin&warehouse=compute_wh
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+uuid: 5d13ca98-e052-428e-879f-f766df97dbdc
+version: 1.0.0
