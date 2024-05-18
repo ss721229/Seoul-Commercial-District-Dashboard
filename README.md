@@ -94,9 +94,11 @@
 
 서울시 전체의 시간대별 길단위인구를 확인하여 서울시 길단위 인구를 파악하여 운영에 도움이 되는 정보를 얻을수 있다
 
+
+
 ### **소비 대시보드**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/a06caebe-4be2-4b39-a8d9-19dded171afd/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/48b70eae-92f1-4843-8cde-2b4a268f864b)
 
 지역별 소비 데이터를 기반으로 서울시 주민들이 어떤 지역에서 소비를 가장 많이 하는지를 알 수 있습니다.  
 
@@ -104,38 +106,47 @@
 
 분기별로 시민들의 분야별 소비 변화 추이를 나타낸 그래프 입니다. 사용자는 어떠한 분야에 사람들이 소비를 많이하고, 그 분야가 성장세인지, 하락세인지를 판단하도록 도와줍니다.
 
+
+
 ### **점포 대시보드**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/b9003aae-5314-4d9e-a857-b381c347dd03/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/26fe35ec-8b6b-4d62-95fb-6c6c2c4b8050)
+
 
 서울시 업종별 개업,폐업수를 나타내는 그래프
 하늘색은 개업수를 나타내며, 남색은 폐업수를 나타내고 있습니다. 이 그래프를 확인하여 서울시에서 어떤 업종이 개업이 많이 되고 폐업이 많이 되는지 확인할 수 있습니다
 
 서울시 어느 지역에 많은 점포들이 분석하는 차트로 총 263000개의 매장이 있고 역삼1동, 신당동 … 이렇게 점포가 활발하게 있는 것을 확인 할 수 있습니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/f613b6a1-e04b-4a36-9525-5081b09d3e4f/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/b677746d-b0d1-42a1-81e1-20e6cb938853)
+
 
 서울시 전체 점포수를 지도에 적용하여 보기 편하게 만들었습니다. 지도에는 서울시 행정구역의 위도 경도를 넣어서 가시화 했습니다
 
 서울시 프랜차이즈 비중을 나타내는 그래프로 x좌표는 총 매장수 y좌표는 프랜차이즈 수 포인트 크기는 프랜차이즈 퍼센트로 만들어 보기 쉽게 만들었습니다.
 
+
+
 ### **추정 매출 대시보드**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/35534f81-c0ba-4210-bbed-1ed06d70509e/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/0d696495-c40a-4376-818f-290bc653a1e3)
+
 
 2023년 서울시의 서비스 업종 별 평균 매출 금액, 최대 매출 금액, 최소 매출 금액을 나타내었습니다. 최소 매출 금액의 경우 최대 매출 금액과 차이가 크기 때문에 logarithmic을 사용하였습니다. 대체로 최대 매출 금액과 평균 매출금액의 그래프 형태가 비슷하였으며, 평균 매출 금액이 가장 높은 것은 한식음식점(9.52B), 그 다음이 수산물판매(6.71B)이었습니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/9b49c8de-f17e-47d6-9fa2-6c92433e4b42/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/6eb0fd04-d785-4610-a749-579ec0eddef2)
+
 
 2023년 서울시의 나이에 따라 매출 금액과 매출 건수의 변동을 확인할 수 있도록 하였습니다. 나이에 따라 매출이 높은 서비스 업종을 확인할 수 있으며, 서비스 업종에 따라 고객 타겟팅을 하는데 도움이 될 수 있을 것입니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/529ca50b-e444-4e9a-8181-59e8c13dafeb/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/5a7e1d7e-a390-4690-bb1e-f71870a357e1)
+
 
 2023년 서울시 길단위 인구 테이블을 JOIN하여 길단위 인구에 따른 행정동 별 매출 금액을 나타내었습니다. 특정 몇 개의 행정동이 큰 매출 금액을 나타내었고, 가락1동의 경우(왼쪽 중앙의 연주황색 원) 길단위 인구가 타 행정동에 비해 매우 적지만 높은 매출 금액을 나타내었습니다.
 
-## 기술적 개선점
 
----
+
+## 기술적 개선점
 
 ### 데이터 적재 자동화 구현
 
