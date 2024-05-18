@@ -60,7 +60,8 @@
 
 ### 데이터 웨어하우스 구조
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/4829fb9e-9182-4b69-a4c8-ef2a2b10b975/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/e93c047e-88cc-47bb-bfc9-e5752646b967)
+
 
 
 
@@ -70,21 +71,24 @@
 
 ### **길단위 인구 대시보드**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/c5facc9f-abc9-4e0e-8a01-de3a3b11edfb/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/ce36d15d-64e8-4b39-9df1-343eea8dd6dd)
+
 
 해당 분기의 행정동별 성별의 길단위 인구와 서울시 전체 길단위 인구를 파악할수 있다 이를 바탕으로 어떤 점포를 열고 어느 성별을 타겟팅 할지를 선택할수 있는 데이터를 얻을수있다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/3d5ea284-d666-4b47-ab9d-27f531829b9c/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/3883de23-e927-4bbb-9740-32b8fa09e117)
+
 
 요일별 길단위 인구를 파악하여 어느 요일에 길단위 인구가 많은지 확인할수 있다. 서울시 전체 요일별 길단위 인구를 참조하여 해당 행정동과 서울시 전체의 행정동의 길단위 인구차이를 확인할수 있다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/362cc4f2-1aed-40d1-b98c-7b778c49d1e8/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/3df2b31f-b7cf-4739-b58b-fadf8d7caedb)
+
 
 10대 부터 60대까지의 행정동별 데이터를 한눈에 파악가능하게 중첩되는 그래프로 생성해 이를 바탕으로 어느 행정동에서 어떤 세대의 길단위 인구가 큰지 파악하여 점포 창업에 도움을 받을수 있다
 
 서울시 나이대별 길단위 인구를 분기별 라인그래프형식으로 만들어 분기별 길단위 인구의 세대별 변화를 확인할수 있다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/94e14f02-ca07-427f-9da1-2de402ad24e5/Untitled.png)
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/0922c970-1f94-465f-8911-667f37e5438f)
 
 행정동 시간대별 길단위 인구를 파악하여 어느 시간대의 길단위 인구가 많은지 파악을 할수있다.
 
