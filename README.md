@@ -55,7 +55,8 @@
             
 ### 프로젝트 구조
 
-https://www.notion.so/prgrms/3-2-2-3913723f4f914a28985e6ff169f1c244?pvs=4#f7ee2f1533bd4cbe8c6bfa153c8d34ca
+![image](https://github.com/ss721229/dev-2-2/assets/65775118/1a2f48a4-70e8-4e86-8522-63cf6408806c)
+
 
 ### 데이터 웨어하우스 구조
 
