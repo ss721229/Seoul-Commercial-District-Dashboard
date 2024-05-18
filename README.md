@@ -29,7 +29,6 @@
 
 ## 프로젝트 상세
 
----
 
 
 ### 데이터 소스
@@ -54,17 +53,19 @@
     - **서울시 행정동 중심점**
         
             
-        
+### 프로젝트 구조
+
+https://www.notion.so/prgrms/3-2-2-3913723f4f914a28985e6ff169f1c244?pvs=4#f7ee2f1533bd4cbe8c6bfa153c8d34ca
 
 ### 데이터 웨어하우스 구조
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e937a7f9-dece-4540-8e1e-3c5966896424/4829fb9e-9182-4b69-a4c8-ef2a2b10b975/Untitled.png)
 
----
+
 
 ## 프로젝트 결과
 
----
+
 
 ### **길단위 인구 대시보드**
 
